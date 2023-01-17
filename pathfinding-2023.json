@@ -1,0 +1,35 @@
+{
+    "fileName": "pathfinding-2023.json",
+    "name": "REVLib",
+    "version": "2023.1.1",
+    "uuid": "667f30bf-0a68-467b-b4e7-a84bb96fdf74",
+    "jsonUrl": "https://software-metadata.revrobotics.com/REVLib.json",
+    "javaDependencies": [
+        {
+            "groupId": "org.xguzm.pathfinding",
+            "artifactId": "pathfinding",
+            "version": "2023.1.1"
+        }
+    ],
+    "jniDependencies": [
+        {
+            "groupId": "org.xguzm.pathfinding",
+            "artifactId": "pathfinding-driver",
+            "version": "2023.1.1",
+            "skipInvalidPlatforms": true,
+            "isJar": false,
+            "validPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxaarch64bionic",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxraspbian",
+                "osxx86-64"
+            ]
+        }
+    ]
+
+        }
+    ]
+}
